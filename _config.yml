@@ -1,26 +1,18 @@
-# The base theme used is Chirpy
-# https://github.com/cotes2020/chirpy-starter
-
 # Site settings
 title: 赵洋的数字花园
 tagline: 记录生活与思考
-description: >-
+description: >
   这里是一个记录日常生活、技术思考和个人想法的空间。
   欢迎来到我的数字花园。
-avatar: /assets/img/avatar.jpg
 timezone: Asia/Shanghai
 lang: zh-CN
 
-# Social links
-social:
-  github: zhao922-bot
-  # twitter: your-twitter
-  # email: your-email@example.com
-  # bilibili: your-bilibili-id
+# Remote theme (Chirpy)
+remote_theme: cotes2020/chirpy
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-chirpy
+permalink: /posts/:title/
 
 # Navigation
 collections:
@@ -30,9 +22,5 @@ collections:
 # Paginate
 paginate: 10
 
-# Comments (可选)
-# disqus:
-#   shortname: your-disqus-shortname
-
-# Google Analytics (可选)
-# google_analytics: G-XXXXXXXXXX
+# Social links
+github: zhao922-bot
