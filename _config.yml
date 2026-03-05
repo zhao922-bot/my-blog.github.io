@@ -7,14 +7,14 @@ description: >
 timezone: Asia/Shanghai
 lang: zh-CN
 
-# Remote theme (Chirpy)
-remote_theme: cotes2020/chirpy
+# 使用 GitHub Pages 内置主题
+theme: minima
 
 # Build settings
 markdown: kramdown
 permalink: /posts/:title/
 
-# Navigation
+# 显示文章列表
 collections:
-  tabs:
+  posts:
     output: true
