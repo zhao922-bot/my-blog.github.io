@@ -8,6 +8,9 @@ avatar: /assets/img/photo_2026-03-05_21-33-20.jpg
 timezone: Asia/Shanghai
 lang: zh-CN
 
+# 使用 GitHub Pages 内置主题
+theme: minima
+
 # Build settings
 markdown: kramdown
 permalink: /posts/:title/
