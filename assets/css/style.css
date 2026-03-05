@@ -38,13 +38,14 @@
 }
 
 /* 黑暗模式下保持图片和图标原色 */
-html[style*="invert(1)"] .profile-img,
-html[style*="invert(1)"] .social-links a,
-html[style*="invert(1)"] .theme-toggle,
-html[style*="filter: invert(1)"] .profile-img,
-html[style*="filter: invert(1)"] .social-links a,
-html[style*="filter: invert(1)"] .theme-toggle {
-  filter: invert(0) !important;
+.profile-img {
+  filter: none !important;
+}
+.social-links a {
+  filter: none !important;
+}
+.theme-toggle {
+  filter: none !important;
 }
 
 body {
