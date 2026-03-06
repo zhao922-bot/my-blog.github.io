@@ -37,14 +37,11 @@
   box-sizing: border-box;
 }
 
-/* 黑暗模式下保持图片和图标原色 */
-.profile-img {
-  filter: none !important;
-}
-.social-links a {
-  filter: none !important;
-}
-.theme-toggle {
+/* 黑暗模式下保持图片和图标原色 - 使用更强的方式 */
+html .profile-img,
+html .social-links a,
+html .theme-toggle,
+html .rss-link {
   filter: none !important;
 }
 
